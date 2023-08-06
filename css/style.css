@@ -887,52 +887,7 @@ ol {
 	max-height: 100%;
 }
 
-/*----------------------------------------*/
-/*  Milestones Section CSS
-/*----------------------------------------*/
-.milestone {
-	min-height: 110px;
-	padding-left: 43px;
-	padding-top: 15px;
-	position: relative;
-}
 
-.milestone h2 {
-	margin-bottom: 0;
-	font-size: 68px;
-	display: inline-block;
-	float: left;
-	position: relative;
-	z-index: 1;
-}
-
-.milestone p {
-	float: left;
-	font-size: 20px;
-	margin-top: 10px;
-	margin-left: 10px;
-	line-height: 1.5;
-	position: relative;
-	z-index: 1;
-	font-weight: 500;
-}
-
-.milestone:after {
-	position: absolute;
-	content: "";
-	width: 110px;
-	height: 110px;
-	left: 0;
-	top: 0;
-	background: #efefef;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.milestone:hover:after {
-	background: #baff00;
-}
 
 /*----------------------------------------*/
 /*  Projects Section CSS
@@ -1082,33 +1037,7 @@ ol {
 	margin-left: 5px;
 }
 
-/*----------------------------------------*/
-/*  Client Section CSS
-/*----------------------------------------*/
-.client-slider .single-brand {
-	display: table;
-	height: 80px;
-	width: 100%;
-}
 
-.client-slider .single-brand a {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-}
-
-.client-slider .single-brand a img {
-	width: auto;
-	margin: 0 auto;
-	opacity: 0.2;
-	-webkit-transition: all 0.4s;
-	-o-transition: all 0.4s;
-	transition: all 0.4s;
-}
-
-.client-slider .single-brand a:hover img {
-	opacity: 1;
-}
 
 /*----------------------------------------*/
 /*  Footer Section CSS
@@ -1182,267 +1111,6 @@ ol {
 	color: #baff00;
 }
 
-/*----------------------------------------*/
-/*  Blog page CSS
-/*----------------------------------------*/
-.blog-post {
-	margin-bottom: 120px;
-}
-
-.blog-post .thumb {
-	padding: 25px;
-	position: relative;
-}
-
-.blog-post .thumb:after {
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: calc(100% - 100px);
-	top: 0;
-	left: 0;
-	background: #f0f0f0;
-	z-index: -1;
-	-webkit-transition: all 0.4s ease-out 0s;
-	-o-transition: all 0.4s ease-out 0s;
-	transition: all 0.4s ease-out 0s;
-}
-
-.blog-post .post-date {
-	font-size: 14px;
-	font-weight: 700;
-	color: #222;
-	display: inline-block;
-	background: #baff00;
-	padding: 4px 15px;
-	margin-bottom: 20px;
-}
-
-.blog-post h2 {
-	font-size: 30px;
-}
-
-.blog-post h2 a {
-	color: #222;
-}
-
-.blog-post p {
-	margin-bottom: 0;
-}
-
-.blog-post .post-meta {
-	margin-bottom: 40px;
-}
-
-.blog-post .post-meta a {
-	color: #727272;
-	font-size: 12px;
-	margin-right: 10px;
-}
-
-.blog-post .post-meta a i {
-	font-size: 16px;
-	margin-left: 5px;
-}
-
-.blog-post:hover .thumb:after {
-	background: #baff00;
-}
-
-.pagination {
-	display: inline-block;
-	padding: 20px 30px;
-	background: #222;
-	border-radius: 0;
-}
-
-.pagination a {
-	font-size: 18px;
-	font-weight: 700;
-	color: #fff;
-}
-
-.pagination a.active {
-	font-size: 48px;
-	color: #baff00;
-}
-
-.search {
-	position: relative;
-}
-
-.widget-area {
-	margin-bottom: 80px;
-}
-
-.widget-area .widget-title {
-	font-size: 22px;
-	margin-bottom: 40px;
-}
-
-.widget-area .search input {
-	width: 100%;
-	background: #f0f0f0;
-	border: none;
-	font-size: 12px;
-	padding: 10px;
-	padding-right: 35px;
-	font-style: italic;
-}
-
-.widget-area .search button {
-	position: absolute;
-	right: 0;
-	top: 0;
-	background: none;
-	border: none;
-	color: #838383;
-	height: 100%;
-	width: 40px;
-}
-
-.widget-area ul {
-	list-style: none;
-}
-
-.widget-area ul li a {
-	font-size: 15px;
-	display: inline-block;
-	margin-bottom: 15px;
-	font-weight: 500;
-	color: #727272;
-	padding: 3px 10px;
-	padding-left: 25px;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.widget-area ul li a:after {
-	position: absolute;
-	content: "+";
-	color: #838383;
-	left: 5px;
-	top: 3px;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.widget-area ul li a:hover {
-	background: #baff00;
-	color: #222;
-}
-
-.widget-area ul li a:hover:after {
-	color: #222;
-}
-
-.widget-area ul li:last-child a {
-	margin-bottom: 0;
-}
-
-.widget-area .rp-widget .rp-widget-item {
-	margin-bottom: 30px;
-	overflow: hidden;
-}
-
-.widget-area .rp-widget .rp-widget-item:last-child {
-	margin-bottom: 0;
-}
-
-.widget-area .rp-widget .thumb {
-	width: 68px;
-	height: 68px;
-	float: left;
-	margin-right: 30px;
-	background: #ddd;
-	display: block;
-}
-
-.widget-area .rp-widget .rp-content {
-	padding-left: 98px;
-}
-
-.widget-area .rp-widget h4 {
-	line-height: 1.5;
-	margin-bottom: 0;
-}
-
-.widget-area .rp-widget p {
-	font-size: 12px;
-	font-weight: 500;
-	margin-bottom: 0;
-}
-
-.widget-area .quote-widget span {
-	font-size: 47px;
-	font-style: italic;
-	color: #727272;
-}
-
-.widget-area .quote-widget p {
-	font-style: italic;
-	margin-bottom: 0;
-	font-size: 13px;
-}
-
-.widget-area .instagram-widget {
-	padding-top: 30px;
-}
-
-.widget-area .instagram-widget a {
-	display: block;
-	overflow: hidden;
-	width: 33.33333%;
-	float: left;
-	position: relative;
-}
-
-.widget-area .instagram-widget a:after {
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
-	background: #baff00;
-	opacity: 0;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.widget-area .instagram-widget a:before {
-	position: absolute;
-	content: "+";
-	color: #fff;
-	font-weight: 500;
-	text-align: center;
-	font-size: 36px;
-	line-height: 36px;
-	width: 20px;
-	top: 50%;
-	margin-top: -13px;
-	left: 50%;
-	margin-left: -10px;
-	text-shadow: 0 0 20px #999;
-	opacity: 0;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-	z-index: 2;
-}
-
-.widget-area .instagram-widget a:hover:after,
-.widget-area .instagram-widget a:hover:before {
-	opacity: 1;
-}
-
-.widget-area .instagram-widget a img {
-	min-width: 100%;
-}
 
 /*----------------------------------------*/
 /*  Portfolio page CSS
@@ -1567,17 +1235,7 @@ ol {
 	.slide-content {
 		margin-left: 220px;
 	}
-	.milestone p {
-		margin-left: 10px;
-		font-size: 17px;
-	}
-	.milestone h2 {
-		font-size: 55px;
-	}
-	.milestone:after {
-		width: 90px;
-		height: 90px;
-	}
+
 	.slide-num-holder {
 		right: 20px;
 	}
@@ -1797,9 +1455,6 @@ ol {
 	.slide-num-holder.test-slider {
 		bottom: -135px;
 	}
-	.team-member {
-		margin-bottom: 30px;
-	}
 
 	.page-header-section {
 		padding-top: 50%;
@@ -1841,10 +1496,7 @@ ol {
 	.cta-section:after {
 		display: none;
 	}
-	.milestone,
-	.solid-service-box {
-		margin-bottom: 30px;
-	}
+
 	.projects-filter-nav {
 		text-align: left;
 	}
