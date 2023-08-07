@@ -1,9 +1,3 @@
-/**
- * jquery.owl-filter.js
- * Create: 07-09-2016
- * Author: Bearsthemes
- * Version: 1.0.0
- */
 
 "use strict";
 
